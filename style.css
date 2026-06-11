@@ -1152,6 +1152,7 @@ body {
 .rich-description {
     font-size: 0.875rem;
     line-height: 1.65;
+    color: var(--text-secondary);
 }
 
 .rich-description ul {

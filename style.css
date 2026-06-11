@@ -334,7 +334,7 @@ body {
 .catalog-intro .badge-category {
     display: inline-flex;
     background-color: var(--emerald-50);
-    color: var(--emerald-700);
+    color: var(--text-secondary);
     padding: 0.25rem 0.75rem;
     border-radius: 9999px;
     font-size: 0.7rem;

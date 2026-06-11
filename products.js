@@ -3,7 +3,7 @@
 const products = [
   {
     id: 1,
-    title: "Gemini Advanced 1 Tahun HEAD (Garansi 1 Bulan)",
+    title: "Gemini PRO 1 Tahun HEAD (Garansi 1 Bulan)",
     category: "gemini",
     price: 70000,
     originalPrice: 120000,
@@ -165,7 +165,7 @@ const products = [
   },
   {
     id: 7,
-    title: "Gemini Advanced 1 Tahun INV (Garansi 1 Bulan)",
+    title: "Gemini PRO 1 Tahun INV (Garansi 1 Bulan)",
     category: "gemini",
     price: 35000,
     originalPrice: 50000,

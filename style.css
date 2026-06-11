@@ -787,9 +787,13 @@ body {
 }
 
 .stock-badge.ready {
-    background-color: var(--emerald-50);
-    color: var(--emerald-700);
-    border: 1px solid var(--emerald-100);
+    background-color: var(--emerald-600);
+    color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.06);
+    box-shadow: 0 2px 6px rgba(16,185,129,0.12);
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
 }
 
 .stock-badge.empty {

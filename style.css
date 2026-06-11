@@ -5,9 +5,9 @@
     --font-heading: 'Outfit', system-ui, -apple-system, sans-serif;
 
     /* Base Colors */
-    --bg-app: #050810;
-    --bg-card: #0f1419;
-    --bg-card-muted: #1a1f2a;
+    --bg-app: #020305;
+    --bg-card: #080a0f;
+    --bg-card-muted: #0f1318;
     --text-primary: #f1f5f9;
     --text-secondary: #cbd5e1;
     --text-muted: #94a3b8;
@@ -96,9 +96,9 @@ body {
     min-h-screen: 100vh;
     overflow-x: hidden;
     /* Soft background gradient overlay */
-    background: radial-gradient(circle at top left, rgba(16, 185, 129, 0.1), transparent 35%),
-                radial-gradient(circle at top right, rgba(14, 165, 233, 0.1), transparent 30%),
-                linear-gradient(180deg, #0a0e1a 0%, #050810 40%, #030609 100%);
+    background: radial-gradient(circle at top left, rgba(16, 185, 129, 0.08), transparent 35%),
+                radial-gradient(circle at top right, rgba(14, 165, 233, 0.08), transparent 30%),
+                linear-gradient(180deg, #030508 0%, #020305 40%, #010203 100%);
 }
 
 .content-wrapper {
@@ -245,14 +245,14 @@ body {
     justify-content: justify;
     justify-content: space-between;
     padding: 0.75rem 1rem;
-    background-color: rgba(15, 20, 25, 0.9);
+    background-color: rgba(8, 10, 15, 0.95);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-xl);
     box-shadow: var(--shadow-sm);
     margin-bottom: 2rem;
-}
+}}
 
 @media (min-width: 640px) {
     .navbar {
@@ -391,7 +391,7 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 0.375rem;
-    background-color: rgba(15, 20, 25, 0.85);
+    background-color: rgba(8, 10, 15, 0.9);
     border: 1px solid var(--border-color);
     padding: 0.35rem 0.75rem;
     border-radius: 9999px;
@@ -403,7 +403,7 @@ body {
 
 /* Filter Control Panel */
 .filter-panel {
-    background-color: rgba(15, 20, 25, 0.9);
+    background-color: rgba(8, 10, 15, 0.95);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border: 1px solid var(--border-color);
@@ -818,7 +818,7 @@ body {
     gap: 0.375rem;
     font-size: 0.75rem;
     color: var(--text-secondary);
-    background-color: rgba(26, 31, 42, 0.8);
+    background-color: rgba(15, 19, 24, 0.9);
     border: 1px solid var(--border-color);
     padding: 0.35rem 0.5rem;
     border-radius: var(--radius-sm);
@@ -970,7 +970,7 @@ body {
     width: 2.25rem;
     height: 2.25rem;
     border-radius: 9999px;
-    background-color: rgba(26, 31, 42, 0.9);
+    background-color: rgba(15, 19, 24, 0.95);
     border: none;
     color: var(--text-primary);
     box-shadow: var(--shadow-md);

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- SEO Meta Tags -->
+    <title>eXse7en Store - Katalog Produk Digital Premium Terpercaya</title>
+    <meta name="description" content="Beli produk digital premium seperti Gemini Advanced, ChatGPT Plus, NordVPN, Spotify Premium, dan Canva Pro dengan pemesanan kilat via WhatsApp. Proses instan dan bergaransi.">
+    <link rel="canonical" href="https://store.exse7en.com">
+    
+    <!-- Open Graph (Facebook / WA / Telegram) -->
+    <meta property="og:title" content="eXse7en Store - Katalog Produk Digital Premium">
+    <meta property="og:description" content="Temukan berbagai akun premium & produk digital berkualitas dengan layanan cepat via WhatsApp. Garansi penuh, harga bersahabat.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://store.exse7en.com">
+    <meta property="og:image" content="assets/images/gemini-advanced.svg">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="eXse7en Store - Produk Digital Premium">
+    <meta name="twitter:description" content="Beli akun premium murah dan cepat langsung via WhatsApp. Spotify, ChatGPT Plus, Gemini, VPN, Canva.">
+    <meta name="twitter:image" content="assets/images/gemini-advanced.svg">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+    <!-- App Container -->
+    <main class="app-container">
+        <!-- Floating Ambient Glows -->
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="glow glow-3"></div>
+
+        <!-- Section Navigation -->
+        <section class="content-wrapper">
+            <nav class="navbar" id="main-nav">
+                <a href="#" class="nav-brand">
+                    <span class="brand-logo-container">
+                        <img src="favicon.svg" alt="eXse7en logo" class="brand-logo">
+                    </span>
+                    <div class="brand-text">
+                        <span class="brand-title">eXse7en</span>
+                        <span class="brand-subtitle">Digital Catalog</span>
+                    </div>
+                </a>
+                <div class="nav-actions">
+                    <a href="https://wa.me/6285161261697" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                        <i class="fa-solid fa-headset"></i>
+                        <span>Hubungi Admin</span>
+                    </a>
+                </div>
+            </nav>
+
+            <!-- Catalog Section -->
+            <section id="catalog" class="catalog-section">
+                
+                <!-- Hero Header and Filters Grid -->
+                <div class="catalog-header-grid">
+                    
+                    <!-- Header Info -->
+                    <header class="catalog-intro">
+                        <p class="badge-category">PRODUK DIGITAL PREMIUM</p>
+                        <h1 class="main-title">Katalog Produk eXse7en</h1>
+                        <p class="subtitle">Beli Lisensi & Akun Premium dengan proses instan, murah, dan bergaransi penuh.</p>
+
+                        <!-- Stats Badge -->
+                        <div class="stats-container" id="catalog-stats">
+                            <span class="stats-pill"><i class="fa-solid fa-cubes"></i> <span id="stat-total-products">0</span> Produk</span>
+                            <span class="stats-pill"><i class="fa-solid fa-circle-check text-emerald-500"></i> <span id="stat-ready-products">0</span> Ready</span>
+                            <span class="stats-pill"><i class="fa-solid fa-tags"></i> <span id="stat-total-categories">0</span> Kategori</span>
+                        </div>
+                    </header>
+
+                    <!-- Filter Control Panel -->
+                    <aside class="filter-panel" id="filters">
+                        <div class="filter-header">
+                            <p class="filter-title"><i class="fa-solid fa-sliders"></i> Filter Pencarian</p>
+                            <span class="filter-results-count" id="filtered-count">0 produk</span>
+                        </div>
+
+                        <form id="filter-form" onsubmit="event.preventDefault();">
+                            <div class="filter-form-grid">
+                                <!-- Category Select -->
+                                <div class="form-group">
+                                    <label for="filter-category" class="sr-only">Kategori</label>
+                                    <div class="select-wrapper">
+                                        <select id="filter-category" class="form-select">
+                                            <option value="">Semua Kategori</option>
+                                            <!-- Kategori diisi dinamis oleh JavaScript -->
+                                        </select>
+                                        <i class="fa-solid fa-chevron-down select-arrow"></i>
+                                    </div>
+                                </div>
+                                
+                                <!-- Search Input -->
+                                <div class="form-group relative">
+                                    <label for="filter-search" class="sr-only">Cari produk</label>
+                                    <div class="search-input-wrapper">
+                                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                                        <input type="search" id="filter-search" placeholder="Cari produk digital..." class="form-input">
+                                    </div>
+                                </div>
+                                
+                                <!-- Search Submit Button (Optional visual aid) -->
+                                <button type="button" id="btn-clear-filters" class="btn btn-secondary btn-icon" title="Reset Filter">
+                                    <i class="fa-solid fa-rotate-left"></i>
+                                </button>
+                            </div>
+
+                            <!-- Stock Toggle Quick Filter -->
+                            <div class="quick-filters">
+                                <button type="button" id="filter-stock-all" class="quick-filter-btn active">Semua Stok</button>
+                                <button type="button" id="filter-stock-ready" class="quick-filter-btn"><i class="fa-solid fa-check"></i> Hanya Ready</button>
+                            </div>
+                        </form>
+                    </aside>
+                </div>
+
+                <!-- Catalog Content Grid (Dynamically Rendered by JS) -->
+                <div id="catalog-content" class="catalog-content">
+                    <!-- Produk dikelompokkan berdasarkan kategori atau dimuat datar di sini -->
+                    <div class="loading-state">
+                        <i class="fa-solid fa-circle-notch fa-spin"></i>
+                        <p>Memuat produk...</p>
+                    </div>
+                </div>
+
+            </section>
+        </section>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="favicon.svg" alt="eXse7en logo" class="footer-logo">
+                    <span class="footer-title">eXse7en Store</span>
+                </div>
+                <p class="footer-copyright">&copy; 2026 eXse7en Store. All rights reserved. Hubungi admin untuk kemitraan atau reseller.</p>
+                <div class="footer-socials">
+                    <a href="https://wa.me/6285161261697" target="_blank" rel="noopener noreferrer" class="social-link" title="WhatsApp Contact"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="social-link" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" class="social-link" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Shared Native Modal Dialog Detail Produk -->
+        <dialog id="product-detail-modal" class="modal-dialog">
+            <div class="modal-card">
+                <!-- Header Gambar -->
+                <div class="modal-hero">
+                    <img id="modal-image" src="" alt="" class="modal-hero-img">
+                    <div class="modal-close-container">
+                        <button id="modal-btn-close" class="modal-close-btn" aria-label="Tutup Dialog">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Konten Detail -->
+                <div class="modal-body">
+                    <div class="modal-meta-row">
+                        <span id="modal-category" class="modal-category-badge">Kategori</span>
+                        <span id="modal-badge" class="modal-custom-badge">Badge</span>
+                    </div>
+
+                    <h2 id="modal-title" class="modal-product-title">Nama Produk Digital</h2>
+                    
+                    <div class="modal-price-row">
+                        <div class="price-container">
+                            <span id="modal-price" class="modal-price-current">Rp0</span>
+                            <span id="modal-original-price" class="modal-price-old">Rp0</span>
+                        </div>
+                        <span id="modal-stock" class="modal-stock-badge">Stok 0</span>
+                    </div>
+
+                    <!-- Fitur Utama -->
+                    <div class="modal-section">
+                        <h3 class="modal-section-title"><i class="fa-solid fa-list-check"></i> Fitur Utama</h3>
+                        <div id="modal-features-grid" class="modal-features-grid">
+                            <!-- Diisi dinamis -->
+                        </div>
+                    </div>
+
+                    <!-- Deskripsi Rinci -->
+                    <div class="modal-section">
+                        <h3 class="modal-section-title"><i class="fa-solid fa-circle-info"></i> Deskripsi Produk</h3>
+                        <div id="modal-description" class="rich-description text-slate-700 leading-relaxed">
+                            <!-- Diisi dinamis -->
+                        </div>
+                    </div>
+
+                    <!-- Tombol Aksi Beli / Pesan -->
+                    <div class="modal-actions">
+                        <a id="modal-btn-wa" href="" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span>Beli Sekarang via WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </dialog>
+    </main>
+
+    <!-- Data & App Scripts -->
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

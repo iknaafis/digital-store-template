@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c4cc" />
+      <stop offset="50%" stop-color="#7d2ae8" />
+      <stop offset="100%" stop-color="#ff007f" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <!-- Canva-style stylized logo -->
+  <g transform="translate(200, 150) scale(1.15)" filter="url(#shadow)">
+    <!-- Base Rounded Box -->
+    <rect x="-55" y="-55" width="110" height="110" rx="28" fill="#ffffff" opacity="0.15" />
+    <!-- Stylized "C" path -->
+    <path d="M25,-25 
+             C10,-40 -20,-40 -35,-25 
+             C-50,-10 -50,20 -35,35 
+             C-20,50 10,50 25,35
+             L12,24
+             C2,33 -17,33 -27,24
+             C-37,15 -37,-5 -27,-14
+             C-17,-23 2,-23 12,-14
+             Z" fill="#ffffff" />
+    <!-- Mini sparkle -->
+    <path d="M22,-5 C22.5,-1 24,-0.5 26,0 C24,0.5 22.5,1 22,5 C21.5,1 20,0.5 18,0 C20,-0.5 21.5,-1 22,-5 Z" fill="#ffffff" />
+  </g>
+</svg>

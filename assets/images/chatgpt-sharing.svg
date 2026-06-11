@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22" />
+      <stop offset="60%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="spiralGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#0891b2" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <!-- ChatGPT Spiral Shape -->
+  <g transform="translate(160, 140) scale(1.0)" filter="url(#shadow)">
+    <!-- Base circle -->
+    <circle cx="0" cy="0" r="65" fill="#111827" opacity="0.3" />
+    <!-- Spiral Path -->
+    <path d="M 0,-45 C 10,-45 20,-35 20,-25 C 20,-15 10,-10 0,-10 C -10,-10 -20,-15 -20,-25 C -20,-35 -10,-45 0,-45 Z" fill="#22d3ee" opacity="0.9" transform="rotate(0) translate(0, 15)"/>
+    <path d="M 0,-45 C 10,-45 20,-35 20,-25 C 20,-15 10,-10 0,-10 C -10,-10 -20,-15 -20,-25 C -20,-35 -10,-45 0,-45 Z" fill="#22d3ee" opacity="0.9" transform="rotate(60) translate(0, 15)"/>
+    <path d="M 0,-45 C 10,-45 20,-35 20,-25 C 20,-15 10,-10 0,-10 C -10,-10 -20,-15 -20,-25 C -20,-35 -10,-45 0,-45 Z" fill="#22d3ee" opacity="0.9" transform="rotate(120) translate(0, 15)"/>
+    <path d="M 0,-45 C 10,-45 20,-35 20,-25 C 20,-15 10,-10 0,-10 C -10,-10 -20,-15 -20,-25 C -20,-35 -10,-45 0,-45 Z" fill="#22d3ee" opacity="0.9" transform="rotate(180) translate(0, 15)"/>
+    <path d="M 0,-45 C 10,-45 20,-35 20,-25 C 20,-15 10,-10 0,-10 C -10,-10 -20,-15 -20,-25 C -20,-35 -10,-45 0,-45 Z" fill="#22d3ee" opacity="0.9" transform="rotate(240) translate(0, 15)"/>
+    <path d="M 0,-45 C 10,-45 20,-35 20,-25 C 20,-15 10,-10 0,-10 C -10,-10 -20,-15 -20,-25 C -20,-35 -10,-45 0,-45 Z" fill="#22d3ee" opacity="0.9" transform="rotate(300) translate(0, 15)"/>
+  </g>
+  <!-- Users overlay indicating sharing -->
+  <g transform="translate(280, 190) scale(0.9)" filter="url(#shadow)">
+    <!-- Shield/Circle bg -->
+    <circle cx="0" cy="0" r="45" fill="#1e293b" stroke="#334155" stroke-width="3" />
+    <!-- 3 Users icon -->
+    <!-- Middle User -->
+    <circle cx="0" cy="-12" r="11" fill="#e2e8f0" />
+    <path d="M-18,17 C-18,5 -8,4 0,4 C8,4 18,5 18,17 Z" fill="#e2e8f0" />
+    <!-- Left User -->
+    <circle cx="-16" cy="-8" r="8" fill="#94a3b8" />
+    <path d="M-28,17 C-28,8 -20,7 -14,7 C-14,14 -20,17 -28,17 Z" fill="#94a3b8" />
+    <!-- Right User -->
+    <circle cx="16" cy="-8" r="8" fill="#94a3b8" />
+    <path d="M28,17 C28,8 20,7 14,7 C14,14 20,17 28,17 Z" fill="#94a3b8" />
+  </g>
+</svg>

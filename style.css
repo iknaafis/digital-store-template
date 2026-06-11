@@ -333,15 +333,17 @@ body {
 /* Catalog Intro / Hero */
 .catalog-intro .badge-category {
     display: inline-flex;
-    background-color: var(--emerald-50);
+    align-items: center;
+    background-color: #000000;
     color: var(--text-secondary);
     padding: 0.25rem 0.75rem;
     border-radius: 9999px;
     font-size: 0.7rem;
-    font-weight: 800;
-    letter-spacing: 0.15em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
-    border: 1px solid var(--emerald-100);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
     margin-bottom: 0.75rem;
 }
 

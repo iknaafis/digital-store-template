@@ -3,7 +3,7 @@
 const products = [
   {
     id: 1,
-    title: "Gemini Advanced 1 Tahun (Garansi 1 Bulan)",
+    title: "Gemini Advanced 1 Tahun HEAD (Garansi 1 Bulan)",
     category: "gemini",
     price: 70000,
     originalPrice: 120000,
@@ -13,7 +13,7 @@ const products = [
     image: "assets/images/gemini-advanced.svg",
     features: [
       { name: "Akses Model Gemini 1.5 Pro", icon: "fa-solid fa-brain" },
-      { name: "Penyimpanan Google One 2 TB", icon: "fa-brands fa-google-drive" },
+      { name: "Penyimpanan Google One 5 TB", icon: "fa-brands fa-google-drive" },
       { name: "Integrasi Gmail, Docs, dll.", icon: "fa-solid fa-envelope-open-text" },
       { name: "Google Flow & Video Maker", icon: "fa-solid fa-video" }
     ],
@@ -26,7 +26,7 @@ const products = [
       </ul>
       <p class="text-sm mt-3 text-slate-500"><strong>Informasi Akun:</strong> Akun disediakan oleh penjual (fresh account/invite family). Proses cepat dan bergaransi.</p>
     `,
-    waNumber: "6285161261697"
+    waNumber: "6288293955177"
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const products = [
     category: "chatgpt",
     price: 99000,
     originalPrice: 320000,
-    stock: 5,
+    stock: 0,
     isBestSeller: true,
     badge: "Rekomendasi",
     image: "assets/images/chatgpt.svg",
@@ -53,7 +53,7 @@ const products = [
       </ul>
       <p class="text-sm mt-3 text-slate-500"><strong>Informasi Akun:</strong> Akun privat (bisa pakai email sendiri atau disediakan penjual). Full garansi selama 30 hari penuh.</p>
     `,
-    waNumber: "6285161261697"
+    waNumber: "6288293955177"
   },
   {
     id: 3,
@@ -80,7 +80,7 @@ const products = [
       </ul>
       <p class="text-sm mt-3 text-slate-500"><strong>Informasi Akun:</strong> Kredensial akun dikirim instan oleh admin. Garansi pemakaian selama durasi paket.</p>
     `,
-    waNumber: "6285161261697"
+    waNumber: "6288293955177"
   },
   {
     id: 4,
@@ -88,7 +88,7 @@ const products = [
     category: "vpn",
     price: 45000,
     originalPrice: 150000,
-    stock: 12,
+    stock: 0,
     isBestSeller: false,
     badge: "Pilihan Terbaik",
     image: "assets/images/nordvpn.svg",
@@ -107,7 +107,7 @@ const products = [
       </ul>
       <p class="text-sm mt-3 text-slate-500"><strong>Informasi Akun:</strong> Akun private premium berdurasi 1 tahun. Garansi penuh selama masa sewa.</p>
     `,
-    waNumber: "6285161261697"
+    waNumber: "6288293955177"
   },
   {
     id: 5,
@@ -115,7 +115,7 @@ const products = [
     category: "streaming",
     price: 25000,
     originalPrice: 75000,
-    stock: 8,
+    stock: 0,
     isBestSeller: true,
     badge: "Promo",
     image: "assets/images/spotify.svg",
@@ -134,7 +134,7 @@ const products = [
       </ul>
       <p class="text-sm mt-3 text-slate-500"><strong>Informasi Akun:</strong> Paket Individual (bukan family/invite). Bisa upgrade akun pribadi lama atau akun baru.</p>
     `,
-    waNumber: "6285161261697"
+    waNumber: "6288293955177"
   },
   {
     id: 6,
@@ -142,7 +142,7 @@ const products = [
     category: "produktivitas",
     price: 15000,
     originalPrice: 95000,
-    stock: 30,
+    stock: 0,
     isBestSeller: true,
     badge: "Sangat Murah",
     image: "assets/images/canva.svg",
@@ -161,8 +161,35 @@ const products = [
       </ul>
       <p class="text-sm mt-3 text-slate-500"><strong>Informasi Akun:</strong> Cukup berikan email Anda saat checkout, kami akan mengirimkan link undangan resmi tim Canva Pro. Lifetime garansi.</p>
     `,
-    waNumber: "6285161261697"
-  }
+    waNumber: "6288293955177"
+  },
+  {
+    id: 7,
+    title: "Gemini Advanced 1 Tahun INV (Garansi 1 Bulan)",
+    category: "gemini",
+    price: 35000,
+    originalPrice: 50000,
+    stock: 10,
+    isBestSeller: true,
+    badge: "Terlaris",
+    image: "assets/images/gemini-advanced.svg",
+    features: [
+      { name: "Akses Model Gemini 1.5 Pro", icon: "fa-solid fa-brain" },
+      { name: "Penyimpanan Google One 5 TB", icon: "fa-brands fa-google-drive" },
+      { name: "Integrasi Gmail, Docs, dll.", icon: "fa-solid fa-envelope-open-text" },
+      { name: "Google Flow & Video Maker", icon: "fa-solid fa-video" }
+    ],
+    description: `
+      <ul>
+        <li>Akses penuh ke model AI tercanggih dari Google.</li>
+        <li>Kapasitas penyimpanan awan Google One sebesar 2 TB yang bisa dibagi ke keluarga.</li>
+        <li>Gunakan Gemini langsung di dalam Google Workspace (Gmail, Dokumen, Spreadsheet, dll).</li>
+        <li>Prioritas akses fitur terbaru sebelum dirilis ke publik.</li>
+      </ul>
+      <p class="text-sm mt-3 text-slate-500"><strong>Informasi Akun:</strong> Akun disediakan oleh penjual (fresh account/invite family). Proses cepat dan bergaransi.</p>
+    `,
+    waNumber: "6288293955177"
+  },  
 ];
 
 // Konfigurasi Kategori

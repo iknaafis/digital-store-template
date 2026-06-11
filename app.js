@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       catalogContent.appendChild(grid);
     } 
-    // Kasus B: Keadaan Normal / Default (Tampilan Terkelompok Kategori seperti store.exse7en.com)
+    // Kasus B: Keadaan Normal / Default (Tampilan Terkelompok Kategori dengan pengelompokan kategori)
     else {
       // Ambil kategori unik dari produk yang disaring
       const activeCategories = [...new Set(filtered.map(p => p.category))];

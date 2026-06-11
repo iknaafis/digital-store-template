@@ -850,7 +850,7 @@ body {
 /* Description Preview */
 .card-desc-preview {
     font-size: 0.8125rem;
-    color: var(--text-muted);
+    color: var(--text-secondary);
     line-height: 1.5;
     margin-bottom: 1.25rem;
     display: -webkit-box;

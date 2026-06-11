@@ -793,9 +793,13 @@ body {
 }
 
 .stock-badge.empty {
-    background-color: var(--rose-50);
-    color: var(--rose-700);
-    border: 1px solid var(--rose-100);
+    background-color: var(--rose-600);
+    color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(225,29,72,0.12);
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
 }
 
 /* Features grid in cards */

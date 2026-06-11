@@ -10,7 +10,7 @@ const products = [
     stock: 19,
     isBestSeller: true,
     badge: "Terlaris",
-    image: "assets/images/gemini-advanced.svg",
+    image: "assets/images/gemini-advanced.jpg",
     features: [
       { name: "Akses Model Gemini 1.5 Pro", icon: "fa-solid fa-brain" },
       { name: "Penyimpanan Google One 5 TB", icon: "fa-brands fa-google-drive" },
@@ -37,7 +37,7 @@ const products = [
     stock: 0,
     isBestSeller: true,
     badge: "Rekomendasi",
-    image: "assets/images/chatgpt.svg",
+    image: "assets/images/chatgpt.jpg",
     features: [
       { name: "Akses GPT-4o & GPT-4", icon: "fa-solid fa-bolt" },
       { name: "Analisis Data Tingkat Lanjut", icon: "fa-solid fa-chart-line" },
@@ -64,7 +64,7 @@ const products = [
     stock: 0,
     isBestSeller: false,
     badge: "",
-    image: "assets/images/chatgpt-sharing.svg",
+    image: "assets/images/chatgpt-sharing.jpg",
     features: [
       { name: "Akses GPT-4o & GPT-4", icon: "fa-solid fa-bolt" },
       { name: "Gunakan DALL-E 3", icon: "fa-solid fa-image" },
@@ -91,7 +91,7 @@ const products = [
     stock: 0,
     isBestSeller: false,
     badge: "Pilihan Terbaik",
-    image: "assets/images/nordvpn.svg",
+    image: "assets/images/nordvpn.jpg",
     features: [
       { name: "5400+ Server di Dunia", icon: "fa-solid fa-server" },
       { name: "Kecepatan Ultra Cepat", icon: "fa-solid fa-gauge-high" },
@@ -118,7 +118,7 @@ const products = [
     stock: 0,
     isBestSeller: true,
     badge: "Promo",
-    image: "assets/images/spotify.svg",
+    image: "assets/images/spotify.jpg",
     features: [
       { name: "Bebas Iklan (Ad-Free)", icon: "fa-solid fa-ban" },
       { name: "Unduh Musik Offline", icon: "fa-solid fa-download" },
@@ -145,7 +145,7 @@ const products = [
     stock: 0,
     isBestSeller: true,
     badge: "Sangat Murah",
-    image: "assets/images/canva.svg",
+    image: "assets/images/canva.jpg",
     features: [
       { name: "100+ Juta Template & Foto", icon: "fa-solid fa-palette" },
       { name: "Penghapus Latar Belakang", icon: "fa-solid fa-wand-magic-sparkles" },
@@ -172,7 +172,7 @@ const products = [
     stock: 10,
     isBestSeller: true,
     badge: "Terlaris",
-    image: "assets/images/gemini-advanced.svg",
+    image: "assets/images/gemini-advanced.jpg",
     features: [
       { name: "Akses Model Gemini 1.5 Pro", icon: "fa-solid fa-brain" },
       { name: "Penyimpanan Google One 5 TB", icon: "fa-brands fa-google-drive" },

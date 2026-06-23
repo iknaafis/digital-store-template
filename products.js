@@ -167,7 +167,7 @@ const products = [
     id: 7,
     title: "Gemini PRO 1 Tahun INV (Garansi 1 Bulan)",
     category: "gemini",
-    price: 25000,
+    price: 30000,
     originalPrice: 40000,
     stock: 10,
     isBestSeller: true,

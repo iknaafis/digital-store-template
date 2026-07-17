@@ -190,7 +190,60 @@ const products = [
     `,
     waNumber: "6288293955177"
   },  
-];
+  {
+    id: 8,
+    title: "Netflix Premium UHD 4K",
+    category: "streaming",
+    price: 40000,
+    originalPrice: 90000,
+    stock: 10,
+    isBestSeller: true,
+    badge: "Promo",
+    image: "assets/images/netflix.jpg",
+    features: [
+      { name: "Bebas Iklan (Ad-Free)", icon: "fa-solid fa-ban" },
+      { name: "Kualitas Ultra HD 4K", icon: "fa-solid fa-download" },
+      { name: "Download Film Offline", icon: "fa-solid fa-music" },
+      { name: "Tonton di Mana Saja", icon: "fa-solid fa-circle-play" }
+    ],
+    description: `
+      <ul>
+        <li>Menonton ribuan film, serial TV, anime, dan dokumenter orisinal terlengkap.</li>
+        <li>Kualitas streaming premium hingga resolusi 4K + HDR untuk pengalaman sinematik di rumah.</li>
+        <li>Mendukung fitur download langsung ke perangkat agar bisa ditonton secara offline saat bepergian.</li>
+        <li>Kompatibel dan lancar digunakan di aplikasi Netflix Android, iOS, Windows, Web Browser, hingga Smart TV/Android TV.</li>
+      </ul>
+      <p class="text-sm mt-3 text-slate-500"><strong>Informasi Akun:</strong> Paket Premium UHD (Private Account). 1 Akun penuh khusus untuk Anda sendiri, bebas membuat hingga 5 profile. Email dari kami.</p>
+    `,
+    waNumber: "6288293955177"
+  },
+  {
+    id: 9,
+    title: "Netflix Premium UHD 4K 1P1U",
+    category: "streaming",
+    price: 20000,
+    originalPrice: 35000,
+    stock: 10,
+    isBestSeller: true,
+    badge: "Promo",
+    image: "assets/images/netflix.jpg",
+    features: [
+      { name: "Bebas Iklan (Ad-Free)", icon: "fa-solid fa-ban" },
+      { name: "Kualitas Ultra HD 4K", icon: "fa-solid fa-download" },
+      { name: "Download Film Offline", icon: "fa-solid fa-music" },
+      { name: "Tonton di Mana Saja", icon: "fa-solid fa-circle-play" }
+    ],
+    description: `
+      <ul>
+        <li>Menonton ribuan film, serial TV, anime, dan dokumenter orisinal terlengkap.</li>
+        <li>Kualitas streaming premium hingga resolusi 4K + HDR untuk pengalaman sinematik di rumah.</li>
+        <li>Mendukung fitur download langsung ke perangkat agar bisa ditonton secara offline saat bepergian.</li>
+        <li>Kompatibel dan lancar digunakan di aplikasi Netflix Android, iOS, Windows, Web Browser, hingga Smart TV/Android TV.</li>
+      </ul>
+      <p class="text-sm mt-3 text-slate-500"><strong>Informasi Akun:</strong> Paket Premium UHD (Sharing Profile). Anda akan mendapatkan 1 Profile khusus dengan PIN pribadi. Dilarang mengubah password atau mengutak-atik profile milik pembeli lain.</p>
+    `,
+    waNumber: "6288293955177"
+  },
 
 // Konfigurasi Kategori
 const categories = {

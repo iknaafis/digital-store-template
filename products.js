@@ -24,7 +24,7 @@ const products = [
         <li>Gunakan Gemini langsung di dalam Google Workspace (Gmail, Dokumen, Spreadsheet, dll).</li>
         <li>Prioritas akses fitur terbaru sebelum dirilis ke publik.</li>
       </ul>
-      <p class="text-sm mt-3 text-slate-500"><strong>Informasi Akun:</strong> Akun disediakan oleh penjual (fresh account/invite family). Proses cepat dan bergaransi.</p>
+      <p class="text-sm mt-3 text-slate-500"><strong>Informasi Akun:</strong> Akun dari pembeli. Proses cepat dan bergaransi.</p>
     `,
     waNumber: "6288293955177"
   },
@@ -186,7 +186,7 @@ const products = [
         <li>Gunakan Gemini langsung di dalam Google Workspace (Gmail, Dokumen, Spreadsheet, dll).</li>
         <li>Prioritas akses fitur terbaru sebelum dirilis ke publik.</li>
       </ul>
-      <p class="text-sm mt-3 text-slate-500"><strong>Informasi Akun:</strong> Akun disediakan oleh penjual (fresh account/invite family). Proses cepat dan bergaransi.</p>
+      <p class="text-sm mt-3 text-slate-500"><strong>Informasi Akun:</strong> Akun dari pembeli. Proses cepat dan bergaransi.</p>
     `,
     waNumber: "6288293955177"
   },  

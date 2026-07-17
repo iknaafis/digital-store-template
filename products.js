@@ -244,6 +244,7 @@ const products = [
     `,
     waNumber: "6288293955177"
   }
+};
 
 // Konfigurasi Kategori
 const categories = {

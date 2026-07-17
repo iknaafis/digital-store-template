@@ -251,7 +251,7 @@ const categories = {
   all: "Semua Kategori",
   ai: "AI Premium",
   streaming: "Streaming",
-  app: "App Prem"
+  app: "Aplikasi Premium"
 };
 
 // Ekspor agar bisa digunakan di app.js

@@ -4,7 +4,7 @@ const products = [
   {
     id: 1,
     title: "Gemini PRO 1 Tahun HEAD (Garansi 1 Bulan)",
-    category: "gemini",
+    category: "ai",
     price: 50000,
     originalPrice: 80000,
     stock: 15,
@@ -31,7 +31,7 @@ const products = [
   {
     id: 2,
     title: "ChatGPT Plus Premium (Private Account 1 Bulan)",
-    category: "chatgpt",
+    category: "ai",
     price: 99000,
     originalPrice: 320000,
     stock: 0,
@@ -58,7 +58,7 @@ const products = [
   {
     id: 3,
     title: "ChatGPT Plus Sharing (5 User / Akun)",
-    category: "chatgpt",
+    category: "ai",
     price: 35000,
     originalPrice: 65000,
     stock: 0,
@@ -85,7 +85,7 @@ const products = [
   {
     id: 4,
     title: "NordVPN Premium Ultra (Private 1 Tahun)",
-    category: "vpn",
+    category: "app",
     price: 45000,
     originalPrice: 150000,
     stock: 0,
@@ -139,7 +139,7 @@ const products = [
   {
     id: 6,
     title: "Canva Pro Team Invite (Aktif Selamanya / Lifetime)",
-    category: "produktivitas",
+    category: "app",
     price: 15000,
     originalPrice: 95000,
     stock: 0,
@@ -166,7 +166,7 @@ const products = [
   {
     id: 7,
     title: "Gemini PRO 1 Tahun INV (Garansi 1 Bulan)",
-    category: "gemini",
+    category: "ai",
     price: 25000,
     originalPrice: 35000,
     stock: 10,
@@ -249,11 +249,9 @@ const products = [
 // Konfigurasi Kategori
 const categories = {
   all: "Semua Kategori",
-  gemini: "Gemini",
-  chatgpt: "ChatGPT",
-  vpn: "VPN",
+  ai: "AI Premium",
   streaming: "Streaming",
-  produktivitas: "Produktivitas"
+  app: "App Prem"
 };
 
 // Ekspor agar bisa digunakan di app.js

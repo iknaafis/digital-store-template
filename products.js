@@ -196,7 +196,7 @@ const products = [
     category: "streaming",
     price: 40000,
     originalPrice: 90000,
-    stock: 10,
+    stock: 5,
     isBestSeller: true,
     badge: "Promo",
     image: "assets/images/netflix.jpg",

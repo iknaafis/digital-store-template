@@ -142,7 +142,7 @@ const products = [
     category: "produktivitas",
     price: 15000,
     originalPrice: 95000,
-    stock: 100,
+    stock: 0,
     isBestSeller: true,
     badge: "Sangat Murah",
     image: "assets/images/canva.jpg",

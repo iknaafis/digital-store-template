@@ -243,7 +243,7 @@ const products = [
       <p class="text-sm mt-3 text-slate-500"><strong>Informasi Akun:</strong> Paket Premium UHD (Sharing Profile). Anda akan mendapatkan 1 Profile khusus dengan PIN pribadi. Dilarang mengubah password atau mengutak-atik profile milik pembeli lain.</p>
     `,
     waNumber: "6288293955177"
-  },
+  };
 
 // Konfigurasi Kategori
 const categories = {

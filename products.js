@@ -202,8 +202,8 @@ const products = [
     image: "assets/images/netflix.jpg",
     features: [
       { name: "Bebas Iklan (Ad-Free)", icon: "fa-solid fa-ban" },
-      { name: "Kualitas Ultra HD 4K", icon: "fa-solid fa-download" },
-      { name: "Download Film Offline", icon: "fa-solid fa-music" },
+      { name: "Download Film Offline", icon: "fa-solid fa-download" },
+      { name: "Kualitas Ultra HD 4K", icon: "fa-solid fa-video" },
       { name: "Tonton di Mana Saja", icon: "fa-solid fa-circle-play" }
     ],
     description: `
@@ -229,8 +229,8 @@ const products = [
     image: "assets/images/netflix.jpg",
     features: [
       { name: "Bebas Iklan (Ad-Free)", icon: "fa-solid fa-ban" },
-      { name: "Kualitas Ultra HD 4K", icon: "fa-solid fa-download" },
-      { name: "Download Film Offline", icon: "fa-solid fa-music" },
+      { name: "Download Film Offline", icon: "fa-solid fa-download" },
+      { name: "Kualitas Ultra HD 4K", icon: "fa-solid fa-video" },
       { name: "Tonton di Mana Saja", icon: "fa-solid fa-circle-play" }
     ],
     description: `

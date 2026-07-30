@@ -194,7 +194,7 @@ const products = [
     id: 8,
     title: "Netflix Premium UHD 4K",
     category: "streaming",
-    price: 40000,
+    price: 50000,
     originalPrice: 90000,
     stock: 5,
     isBestSeller: true,
